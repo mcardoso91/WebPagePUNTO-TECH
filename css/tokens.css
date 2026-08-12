@@ -1,0 +1,42 @@
+:root {
+  /* Brand Colors */
+  --clr-primary: #2563EB;
+  --clr-accent-1: #00D4FF;
+  --clr-accent-2: #7C3AED;
+  
+  /* Neutral / Background Colors */
+  --clr-bg-main: #0B1220;
+  --clr-bg-surface: #111827;
+  --clr-bg-surface-hover: rgba(255, 255, 255, 0.05);
+  --clr-border: rgba(255, 255, 255, 0.1);
+  --clr-glass: rgba(17, 24, 39, 0.7);
+  
+  /* Text Colors */
+  --clr-text-primary: #FFFFFF;
+  --clr-text-secondary: #E5E7EB;
+  --clr-text-muted: #9CA3AF;
+
+  /* Typography */
+  --font-main: 'Montserrat', sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Gradients */
+  --grad-primary: linear-gradient(135deg, var(--clr-accent-1), var(--clr-primary), var(--clr-accent-2));
+}
